@@ -109,6 +109,7 @@ color: white;
 #ads p{
     text-align: center;
     font-size: 26px;
+    color:#f99c3e ;
 }
 #ads h2{
     text-align: center;
@@ -156,4 +157,21 @@ text-align: center;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
+  }
+
+  /* Menu section css */
+  .menu{
+      background-color: black;
+  }
+  .descipt{
+      text-align: center;
+      padding-top: 50px;
+  }
+  .descipt p{
+      color: #f99c3e;
+      font-size: 26px;
+  }
+  .descipt h2{
+    font-size: 50px;
+    color: white;
   }
