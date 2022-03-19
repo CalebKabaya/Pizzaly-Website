@@ -182,3 +182,14 @@ text-align: center;
   #menu-cols button:hover{
       background-color:#f99c3e ;
   }
+/* order now */
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+form label{
+    font-size: 25px;
+
+}
