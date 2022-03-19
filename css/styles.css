@@ -1,21 +1,24 @@
-*{
+* {
     padding: 0;
-    margin:0;
+    margin: 0;
     box-sizing: border-box;
 }
-.nav-link{
-margin: 20%;
-padding: 60px;
-font-size: 20px;
-color: rgb(255, 255, 255);
-/* background-color: black; */
+
+.nav-link {
+    margin: 20%;
+    padding: 60px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    /* background-color: black; */
 
 }
-.nav-item{
+
+.nav-item {
     padding: 20px;
     color: black;
 }
-#bg-img{
+
+#bg-img {
     background-image: url(../images/pizza-g33107d15c_1920.jpg);
     height: 100vh;
     background-position: center;
@@ -23,9 +26,11 @@ color: rgb(255, 255, 255);
     background-size: cover;
     position: relative;
 }
-.nav-item a{
+
+.nav-item a {
     color: white;
 }
+
 .bunner {
     /* width: 90%; */
     color: white;
@@ -37,6 +42,7 @@ color: rgb(255, 255, 255);
     /* padding: 30px 30px; */
 
 }
+
 .col-1 {
     flex-basis: 50%;
     min-width: 100%;
@@ -55,4 +61,32 @@ color: rgb(255, 255, 255);
     margin: 35px 0;
     justify-content: center;
     color: white;
+}
+
+
+/* services */
+.small-container img {
+    height: 10vh;
+    text-align: center;
+}
+
+.small-container img:hover {
+    color: white;
+}
+
+.main-container {
+    display: flex;
+    padding-top: 7%;
+}
+
+.small-container {
+    text-align: center;
+    border-radius: 40px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+.services {
+    background-color: #f99c3e;
 }
