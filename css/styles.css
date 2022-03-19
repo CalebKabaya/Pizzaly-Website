@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.nav-link{
+margin: 20%;
+padding: 60px;
+font-size: 20px;
+color: rgb(255, 255, 255);
+/* background-color: black; */
+
+}
+.nav-item{
+    padding: 20px;
+    color: black;
+}
+.bg-img{
+    background-image: url(../images/pizza-g33107d15c_1920.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.nav-item a{
+    color: white;
+}
