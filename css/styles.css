@@ -84,7 +84,7 @@ color: white;
 
 .main-container {
     display: flex;
-    padding-top: 7%;
+    padding: 7% 0px;
 }
 
 .small-container {
@@ -104,12 +104,56 @@ color: white;
 /* add unit */
 .ad{
     padding-top: 90px;
+    padding-bottom: 90px;
 }
 #ads p{
     text-align: center;
-    font-size: 30px;
+    font-size: 26px;
 }
 #ads h2{
     text-align: center;
     font-size: 50px;
 }
+#add-body h5{
+text-align: center;
+}
+
+/* .container {
+    position: relative;
+    width: 50%;
+  } */
+  
+  #image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .col:hover #image {
+    opacity: 0.3;
+  }
+  
+  .col:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
