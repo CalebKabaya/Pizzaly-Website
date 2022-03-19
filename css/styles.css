@@ -98,3 +98,18 @@ color: white;
 .services {
     background-color: #f99c3e;
 }
+
+
+
+/* add unit */
+.ad{
+    padding-top: 90px;
+}
+#ads p{
+    text-align: center;
+    font-size: 30px;
+}
+#ads h2{
+    text-align: center;
+    font-size: 50px;
+}
