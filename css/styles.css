@@ -72,6 +72,14 @@
 
 .small-container img:hover {
     color: white;
+    /* background: white; */
+}
+/* .small-container .fa{
+    font-size: 50px;
+    height: 10vh;
+} */
+.small-container:hover{
+color: white;
 }
 
 .main-container {
@@ -81,8 +89,8 @@
 
 .small-container {
     text-align: center;
-    border-radius: 40px;
-    border: 2px solid black;
+    border-radius: 20px;
+    border: 1px solid black;
     padding: 20px;
     margin: 20px;
 }
