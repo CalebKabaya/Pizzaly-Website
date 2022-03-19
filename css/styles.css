@@ -179,3 +179,6 @@ text-align: center;
       /* color: transparent; */
       background-color: transparent;
   }
+  #menu-cols button:hover{
+      background-color:#f99c3e ;
+  }
