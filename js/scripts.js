@@ -381,7 +381,6 @@ $(function () {
         console.log(newOrder); // test func
 
         //create a new object
-        // let myOrder = JSON.stringify(JSON.parse(newOrder));
 
         //Write to the order
         $('.summary').slideDown(2000);
@@ -414,3 +413,4 @@ $(function () {
     $(".delivernot").click(function () {
 
     });
+});
