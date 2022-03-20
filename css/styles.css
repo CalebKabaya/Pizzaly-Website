@@ -367,3 +367,35 @@ text-align: center;
 }
 
 /* contact section */
+.contact{
+    background-color: black;
+}
+#for-contact{
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-around;
+}
+.contact-container{
+    color: white;
+
+}
+.contact-container h4{
+    font-size: 17px;
+    font-weight: lighter;
+    padding: 10px;
+    text-align: start;
+
+}
+.contact-container h2{
+    color: #f99c3e ;
+}
+.container-opening{
+    color: white;
+    text-align: center;
+}
+.container-opening h5{
+
+   font-size: 17px;
+    font-weight: lighter;
+    padding: 10px;
+}
