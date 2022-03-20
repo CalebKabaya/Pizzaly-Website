@@ -293,6 +293,7 @@ text-align: center;
     box-sizing: border-box;
     padding: 15px;
     text-align: center;
+    padding-bottom: 80px;
 
 }
 .colums:hover{
@@ -321,4 +322,46 @@ text-align: center;
 }
 .customer-review{
     padding-top: 70px;
+}
+/* about section */
+#about-container{
+    display: flex;
+}
+.container-one{
+    padding-top: 90px;
+    width: 100%;
+}
+.container-one p{
+    justify-content: center;
+    /* text-align: center; */
+}
+.container-one h2{
+    font-size: 60px;
+    /* padding-top: 70px; */
+    padding-bottom: 70px;
+
+}
+.container-one h5{
+    color: #f99c3e ;
+    font-size: 26px;
+    /* padding-bottom: 40px; */
+}
+.container-two img{
+    text-align: center;
+    /* width: 100%; */
+    /* background-color: black; */
+    
+  
+}
+.container-two{
+    padding-top: 90px;
+    width: 100%; 
+    text-align: center;
+    align-items: center;
+    /* background-color: blueviolet; */
+
+}
+#button-1{
+    margin-top: 50px;
+    font-size: 25px;
 }
