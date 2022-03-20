@@ -246,4 +246,21 @@ form select{
 
     /* padding: 40px; */
     /* margin: 10%; */
-} */
+
+
+
+/* blog section css */
+
+.descipt-1 p{
+color:#f99c3e ;
+font-size: 26px;
+text-align: center;
+}
+.descipt-1 h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.blog{
+    padding-top: 90px;
+}
