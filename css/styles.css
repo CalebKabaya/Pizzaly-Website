@@ -301,10 +301,12 @@ text-align: center;
     transition: transform.3s;
 }
 .testimonial {
-    background: rgb(255, 255, 255);
+    /* background: rgb(255, 255, 255); */
     padding: 30px;
     /* border: 1px solid black;
     border-radius: 5px; */
+    background-color: black;
+    color: white;
 }
 
 .testimonial img {
@@ -317,7 +319,7 @@ text-align: center;
 }
 
 .stars {
-    color: black;
+    color:white;
     margin-bottom: 20px;
 }
 .customer-review{
@@ -398,4 +400,12 @@ text-align: center;
    font-size: 17px;
     font-weight: lighter;
     padding: 10px;
+}
+
+#form-3 input{
+    margin-top: 10px;
+}
+#btnss{
+    padding-top: 30px;
+    padding-bottom: 60px;
 }

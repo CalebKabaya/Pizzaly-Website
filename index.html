@@ -312,17 +312,19 @@
                 <div class="cdata-overlay">
                     <div class="customerdata row">
                         <div class="col-sm-3"></div>
-                        <form action="" class="form-group col-sm-6 data">
-                            <input type="text" class="form-control cdata" placeholder="Enter your Name:">
-                            <input type="text" class="form-control cdata" placeholder="Enter your phone number: ">
-                            <input type="text" class="form-control cdata" placeholder="Enter the location: ">
-                            <button class="btn bg-info text-center d-block mx-auto go">Make Delivery</button>
+                        <form action="" class="form-group col-sm-6 data" name="frm" id="form-3">
+                            <input type="text" class="form-control cdata" placeholder="Enter your Name:"required>
+                            <input type="text" class="form-control cdata" placeholder="Enter your phone number: " required>
+                            <input type="text" class="form-control cdata" placeholder="Enter the location: " required>
+                            <button class="btn bg-info text-center d-block mx-auto go" onclick="return IsEmpty();" id="make-delivery">Make Delivery</button>
+
                         </form>
+                      
 
                         <div class="col-sm-3"></div>
                     </div>
                 </div>
-                <div class="d-block mx-auto text-center">
+                <div class="d-block mx-auto text-center" id="btnss">
                     <button type="button" class="btn btn-dark btn-lg" id="deliver">Make Delivery</button>
                     <button type="button" class="btn btn-dark btn-lg" id="pickup">Pick Up</button>
 

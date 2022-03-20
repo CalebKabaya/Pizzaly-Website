@@ -1,7 +1,7 @@
 $(function () {
     $('.summary').hide();
     $('.cdata-overlay').hide();
-//Get inputs
+//Get  the inputs required
     $("#checkout").click(function () {
         let flavour = $(".flavour option:selected").val();
         let size = $("#size option:selected").val();
@@ -10,12 +10,12 @@ $(function () {
         let number = $("#number").val();
         console.log(size);
 
-        //Function order
+        //Function  for order
         let order = (f, s, c, t, n, total) => {
             return {f, s, c, t, n, total};
         };
 
-        //check price
+        //to check the price i used switch case for the instances
         let price, totalPrice;
         switch (flavour) {
             case flavour = "vegtikka":
@@ -378,7 +378,6 @@ $(function () {
 
         //Execute order function
         let newOrder = order(flavour, size, crust, topping, number, totalPrice);
-        console.log(newOrder); // test func
 
         //create a new object
 
@@ -412,5 +411,29 @@ $(function () {
     //Pick Up click function
     $("#pickup").click(function () {
 
+        alert("Your order is ready for pickup")
     });
+    $("#make-delivery").click(function () {
+
+        alert("your order has been received, an extra cost of 180ksh will be charged for the delivery")
+        // if (document.forms['frm'].question.value === "") {
+        //     alert("empty");
+        //     return false;
+        //   }
+        
+    });
+    // function IsEmpty() {
+    //     if (document.forms['frm'].question.value === "") {
+    //       alert("empty");
+    //       return false;
+    //     }
+    //     return true;
+    //   }
+    //   <form name="frm">
+    //     Question: <input name="question" /> <br />
+    //     <input id="insert" onclick="return IsEmpty();" type="submit" value="Add Question" />
+    //   </form>
 });
+// function makeDelivary(){
+//     alert("your order has been received, an extra cost of 180ksh will be charged for the delivery")
+// }
