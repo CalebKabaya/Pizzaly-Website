@@ -166,6 +166,8 @@ text-align: center;
   .descipt{
       text-align: center;
       padding-top: 50px;
+      padding-bottom: 30px;
+
   }
   .descipt p{
       color: #f99c3e;
@@ -263,4 +265,56 @@ text-align: center;
 
 .blog{
     padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+
+/* customer-review */
+.customer-review{
+    background-color:black;
+}
+.images img{
+    font-size: 30px;
+    width: 50%;
+    height: 10vh;
+}
+#row {
+    display: flex;
+    justify-content: center;
+}
+
+.colums {
+    flex: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+
+}
+.colums:hover{
+    transform: translateY(-15px);
+    transition: transform.3s;
+}
+.testimonial {
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    /* border: 1px solid black;
+    border-radius: 5px; */
+}
+
+.testimonial img {
+    border-radius: 50%;
+}
+.name {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.stars {
+    color: black;
+    margin-bottom: 20px;
+}
+.customer-review{
+    padding-top: 70px;
 }
