@@ -30,6 +30,18 @@
 .nav-item a {
     color: white;
 }
+.nav-item a:hover{
+    color: #f99c3e;
+    transform: translateY(-15px);
+    transition: transform.3s;
+
+}
+#nav-a{
+    color: #f99c3e;
+    font-size: 28px;
+    font-weight: bolder;
+
+}
 
 .bunner {
     /* width: 90%; */
@@ -408,4 +420,7 @@ text-align: center;
 #btnss{
     padding-top: 30px;
     padding-bottom: 60px;
+}
+.middle a{
+    text-decoration: none;
 }
