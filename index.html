@@ -135,7 +135,7 @@
                 <p>Fresh From Pizzaly</p>
                 <h2>OUR SPECIAL MENU</h2>
             </div>
-            <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="row row-cols-1 row-cols-md-4 g-4" id="menu-row"> 
                 <div class="col" id="menu-cols">
                     <div class="card h-100">
                         <img src="./images/1.jpg" class="card-img-top" alt="...">
@@ -304,7 +304,7 @@
 
                     <div class="order-summary" id="sum-order">
                         <h1 class="text-center" id="summary">Order Summary</h1>
-                        <h2 class="text-center summary">Hello there, your order is as follows:</h2>
+                        <h2 class="text-center summary">Hello there, This is the Total Order Amount:</h2>
                         <ol id="list" class="text-center sum">
                         </ol>
 
@@ -324,14 +324,65 @@
                             </div>
                         </div>
                         <div class="d-block mx-auto text-center">
-                            <button class='deliver'>Make Delivery</button>
-                            <button class='delivernot'>Pick Up</button>
+                            <button type="button" class="btn btn-dark btn-lg" id="deliver">Make Delivery</button>
+                            <button type="button" class="btn btn-dark btn-lg" id="pickup">Pick Up</button>
+
+
+
+                            <!-- <button class='deliver'>Make Delivery</button>
+                            <button class='pickup'>Pick Up</button> -->
                         </div>
                     </div>
 
                 </div>
             <!-- </div>
         </div> -->
+    </section>
+
+    <section class="blog">
+        <div class="container">
+            <p>Recent Events</p>
+            <h2>LATEST NEWS</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
     </section>
 <script src="./js/scripts.js"></script>
 

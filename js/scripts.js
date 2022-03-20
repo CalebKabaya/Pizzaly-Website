@@ -386,8 +386,8 @@ $(function () {
         $('.summary').slideDown(2000);
         $('.cdata-overlay').slideUp();
         $('#list').slideDown();
-        $('.deliver').show(1000);
-        $('.delivernot').show(1000);
+        $('#deliver').show(1000);
+        $('#pickup').show(1000);
 
         $('#list').text(" ");
         $("#list").append("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
@@ -398,19 +398,19 @@ $(function () {
             + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
     });
 
-    //Deliver
-    $(".deliver").click(function () {
+    //Deliver  click function
+    $("#deliver").click(function () {
         $('.summary').slideUp();
         $('#list').slideUp();
         $('.summary').text("Provide location details").slideDown();
-        $('.deliver').hide(1000);
-        $('.delivernot').hide(1000);
+        $('#deliver').hide(1000);
+        $('#pickup').hide(1000);
         $('.cdata-overlay').slideDown();
     });
 
 
-    //Pick Up
-    $(".delivernot").click(function () {
+    //Pick Up click function
+    $("#pickup").click(function () {
 
     });
 });
