@@ -10,9 +10,11 @@ $(function () {
         let number = $("#number").val();
         console.log(size);
 
-        //Function  for order
-        let order = (f, s, c, t, n, total) => {
-            return {f, s, c, t, n, total};
+        //order function
+        // let newOrder = order(flavour, size, crust, topping, number, totalPrice);
+
+        let order = (flav, siz, cru, toppin, num, total) => {
+            return {flav, siz, cru, toppin, num, total};
         };
 
         //to check the price i used switch case for the instances
@@ -389,11 +391,13 @@ $(function () {
         $('#pickup').show(1000);
 
         $('#list').text(" ");
-        $("#list").append("<br>" + "Flavour :   " + newOrder.f + "<br>" + "Size :   "
-            + newOrder.s + "<br>" + "Crust :     "
-            + newOrder.c + "<br>" + "Toppings :     "
-            + newOrder.t + "<br>" + " Number of pizzas :    "
-            + newOrder.n + "<br>" + "Total Price :  "
+        // {flav, siz, cru, toppin, num, total};
+
+        $("#list").append("<br>" + "Flavour :   " + newOrder.flav + "<br>" + "Size :   "
+            + newOrder.siz + "<br>" + "Crust :     "
+            + newOrder.cru + "<br>" + "Toppings :     "
+            + newOrder.toppin + "<br>" + " Number of pizzas :    "
+            + newOrder.num + "<br>" + "Total Price :  "
             + newOrder.total + "<br><br>").css('font-family', 'system-ui').css('font-size', '24px');
     });
 
